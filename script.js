@@ -1,5 +1,5 @@
 const initialPage = () => {
-  const initialPage = document.querySelector(".initial");
+  const initialPage = document.querySelector(".hehe");
   showSelected(initialPage);
 };
 
