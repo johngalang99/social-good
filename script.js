@@ -10,7 +10,10 @@ const selectPage = (event) => {
 };
 
 const showSelected = (selected) => {
-  console.log(selected);
+  if (!selected) {
+    initialPage();
+    return;
+  }
   document.querySelectorAll(".page").forEach((page) => {
     page.style.display = "none";
   });
