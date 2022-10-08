@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Good</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <navbar>
+      <div>
+        <div>
+          <img src="./logo.png" alt="logo" />
+        </div>
+        <div>
+          <p>English</p>
+          <button>Create Account</button><button>Sign In</button>
+        </div>
+      </div>
+      <div>
+        <p>0 Items</p>
+        <p>$0.00</p>
+      </div>
+    </navbar>
+
+    <section class="bg-secondary">
+      <!-- First Page -->
+
+      <div class="container bg-white page initial" id="page1">
+        <h2>Garden Tickets</h2>
+        <div>
+          <div>
+            <p>Selected Date</p>
+            <p>Friday, Novemberm 19</p>
+            <a href="#">See other dates</a>
+          </div>
+          <div>
+            <p>Selected Date</p>
+            <p>Friday, Novemberm 19</p>
+            <a href="#">See other dates</a>
+          </div>
+        </div>
+        <div>
+          <p>
+            If you plan to drive to the Botanical Garden, a parking reservation
+            must be made prior to checkout.
+          </p>
+          <p>
+            More information and a parking map can be found on the next page
+          </p>
+        </div>
+        <div>
+          <div>
+            <p>Get Correct Ticket</p>
+            <input type="text" placeholder="Quantity" />
+            <p>$25.0</p>
+          </div>
+          <div>
+            <p>Get Correct Ticket</p>
+            <input type="text" placeholder="Quantity" />
+            <p>$25.0</p>
+          </div>
+          <div>
+            <p>Get Correct Ticket</p>
+            <input type="text" placeholder="Quantity" />
+            <p>$25.0</p>
+          </div>
+        </div>
+        <button class="selectPage" data-page="page2">Add to Cart</button>
+      </div>
+
+      <!-- Second Page -->
+
+      <div class="container bg-white page" id="page2">
+        <div>
+          <h2>Tickets</h2>
+          <button>Empty Cart</button>
+        </div>
+        <div>
+          <div class="container bg-light">
+            <p>Ticket Name and Info</p>
+            <p>Review or edit</p>
+            <p>Friday, November 19, 2021 5:30 PM</p>
+            <div class="flex">
+              <p>1 at $25.00</p>
+              <div>
+                <p>Remove</p>
+                <p>$27.00</p>
+              </div>
+            </div>
+          </div>
+
+          <h2>Parking</h2>
+          <div class="container bg-light">
+            <p>Name of Parking</p>
+            <p>Review or edit</p>
+            <p>Expires Friday, November 19, 2021</p>
+            <div class="flex">
+              <p>1 at $15.00</p>
+              <div class="d-flex">
+                <p>Remove</p>
+                <p>$15.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <label for="discount">Discount code</label>
+              <input type="text" />
+            </div>
+            <button>Apply</button>
+          </div>
+
+          <div>
+            <div>
+              <label for="discount"
+                >Please add a donation to my ticket purchase</label
+              >
+              <input type="text" />
+            </div>
+            <button>Add to Cart</button>
+            <p>
+              Help cover 3% credit card processing fees with an additional
+              donation
+            </p>
+            <h2>Personal Information</h2>
+            <div>
+              <div>
+                <label for="">Title</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">Country</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="">*First name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">*Address</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="">*Last name</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">*City</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="">*Email</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">*State</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div>
+              <div>
+                <label for="">*Phone</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="">*ZIP</label>
+                <input type="text" />
+              </div>
+            </div>
+            <p>Total: $56:00</p>
+            <div>
+              <div>
+                <input type="checkbox" /><span>Register for the site</span>
+                <input type="checkbox" /><span
+                  >Use this as my billing address</span
+                >
+              </div>
+              <button class="btn selectPage" data-page="page3">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Page -->
+
+      <div
+        class="container bg-white page selectPage"
+        id="page3"
+        data-page="page1"
+      >
+        <p>Dear Kim,</p>
+        <p>Thank you for your ticket purchase</p>
+        <p>
+          You will be receiving a confirmation email shortly detailing your
+          transaction
+        </p>
+        <p>Summary of your order:</p>
+        <p>Total: $59.00</p>
+        <p>Date: 3/04/22</p>
+        <div class="container bg-light">
+          <p>Name of Ticket</p>
+          <p>Friday, November 19, 2021 5:30 PM</p>
+          <p>1 at $25.00 (Fees: $2.00)</p>
+        </div>
+        <div>
+          <p>
+            On behalf of our entire organization, thank you again for your
+            support.
+          </p>
+          <p>Total: $56.00</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        <img src="./logo.png" alt="logo" />
+        <p>
+          The most complete integration for Altru. Altru to its full potential
+          and book your demo today.
+        </p>
+        <p>(c) 2021 Social Good Software</p>
+      </div>
+      <div>
+        <p>Contact Us</p>
+        <p>9690 South 300 West #303</p>
+        <p>801-738-9051</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
