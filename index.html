@@ -23,17 +23,22 @@
           <p class="border-r-4 border-gray pr-3">
             English <i class="fa-solid fa-angle-down"></i>
           </p>
-          <button class="border py-2 px-3 bg-violet-800 text-white text-sm">
+          <button
+            class="border py-3 px-3 bg-violet-900 text-white text-sm font-bold"
+          >
             Create Account
           </button>
-          <button class="border py-2 px-3 bg-violet-800 text-white text-sm">
+          <button
+            class="border py-3 px-3 bg-violet-900 text-white text-sm font-bold"
+          >
             Sign In
           </button>
         </div>
       </div>
-      <div class="flex gap-4 absolute top-7 right-4">
+      <div class="flex gap-4 absolute top-7 right-4 text-xl font-thin">
         <p class="border-r-4 border-gray pr-3">
-          <i class="fa-sharp fa-solid fa-cart-shopping"></i> 0 Items
+          <i class="fa-sharp fa-solid fa-cart-shopping mr-2 text-gray-600"></i>
+          0 Items
         </p>
         <p>$0.00</p>
       </div>
@@ -42,18 +47,21 @@
     <section class="bg-gray-100 py-10">
       <!-- First Page -->
 
-      <div class="border bg-white mx-auto w-[70%] p-4 page initial" id="page1">
-        <h2 class="text-2xl font-medium my-3">Garden Tickets</h2>
-        <div class="flex justify-between border py-3 px-10">
+      <div
+        class="border bg-white mx-auto w-[70%] p-4 page initial shadow-md"
+        id="page1"
+      >
+        <h2 class="text-2xl font-medium mt-3 mb-5">Garden Tickets</h2>
+        <div class="flex justify-between border-2 py-4 px-10">
           <div class="text-center">
             <p>Selected Date</p>
-            <p class="font-medium">Friday, Novemberm 19</p>
-            <a class="underline text-violet-800" href="#">See other dates</a>
+            <p class="font-bold">Friday, Novemberm 19</p>
+            <a class="underline text-violet-900" href="#">See other dates</a>
           </div>
           <div class="text-center">
             <p>Selected Date</p>
-            <p class="font-medium">5:30 PM - 5:45 PM</p>
-            <a class="underline text-violet-800" href="#">See other dates</a>
+            <p class="font-bold">5:30 PM - 5:45 PM</p>
+            <a class="underline text-violet-900" href="#">See other dates</a>
           </div>
         </div>
         <div class="my-5">
@@ -84,7 +92,7 @@
               type="text"
               placeholder="Quantity"
             />
-            <p class="font-bold">$25.0</p>
+            <p class="font-bold">$15.0</p>
           </div>
           <div class="border flex justify-between items-center py-3 px-4">
             <p>Get Correct Ticket</p>
@@ -93,11 +101,11 @@
               type="text"
               placeholder="Quantity"
             />
-            <p class="font-bold">$25.0</p>
+            <p class="font-bold">$00.0</p>
           </div>
         </div>
         <button
-          class="border py-2 px-3 bg-violet-800 text-white text-sm mt-4 block ml-auto selectPage"
+          class="border py-3 px-7 bg-violet-900 text-white text-sm font-bold mt-4 block ml-auto selectPage"
           data-page="page2"
         >
           Add to Cart
@@ -106,17 +114,22 @@
 
       <!-- Second Page -->
 
-      <div class="border bg-white mx-auto w-[70%] p-5 page" id="page2">
-        <div class="flex justify-between">
-          <h2 class="text-2xl">Tickets</h2>
-          <button class="border py-2 px-3 bg-violet-800 text-white text-sm">
+      <div
+        class="border bg-white mx-auto w-[70%] p-5 page shadow-md hehe"
+        id="page2"
+      >
+        <div class="flex justify-between mb-5">
+          <h2 class="text-2xl font-medium">Tickets</h2>
+          <button
+            class="border py-3 px-7 font-bold bg-violet-900 text-white text-sm"
+          >
             Empty Cart
           </button>
         </div>
         <div>
           <div class="border p-3 bg-gray-100 mt-2">
             <p>Ticket Name and Info</p>
-            <p class="text-sm text-violet-800 my-2">Review or edit</p>
+            <p class="text-sm text-violet-900 my-2">Review or edit</p>
             <p>Friday, November 19, 2021 5:30 PM</p>
             <div class="flex justify-between">
               <p class="mt-2">1 at $25.00</p>
@@ -130,10 +143,10 @@
             </div>
           </div>
 
-          <h2 class="text-2xl">Parking</h2>
+          <h2 class="text-2xl font-medium my-4">Parking</h2>
           <div class="border p-3 bg-gray-100 mt-2">
             <p>Ticket of Parking</p>
-            <p class="text-sm text-violet-800 my-2">Review or edit</p>
+            <p class="text-sm text-violet-900 my-2">Review or edit</p>
             <p>Friday, November 19, 2021 5:30 PM</p>
             <div class="flex justify-between">
               <p class="mt-2">1 at $15.00</p>
@@ -152,7 +165,7 @@
             <div class="flex justify-between">
               <input type="text" class="border w-[600px] mt-1 p-2" />
               <button
-                class="border py-1 px-10 bg-violet-800 text-white text-sm"
+                class="border py-1 px-14 font-bold bg-violet-900 text-white text-sm"
               >
                 Apply
               </button>
@@ -171,20 +184,20 @@
                 <input type="text" class="border w-[600px] mt-1 p-2" />
               </div>
               <button
-                class="border py-1 px-10 bg-violet-800 text-white text-sm"
+                class="border py-1 font-bold px-10 bg-violet-900 text-white text-sm"
               >
                 Add To Cart
               </button>
             </div>
           </div>
           <p
-            class="border-2 border-dashed rounded-md border-violet-800 p-1 mt-2"
+            class="border-2 border-dashed rounded-md border-violet-900 p-1 mt-2"
           >
-            <input type="checkbox mx-2" />Help cover 3% credit card processing
-            fees with an additional donation
+            <input type="checkbox" class="mx-2" />Help cover 3% credit card
+            processing fees with an additional donation
           </p>
-          <h2 class="text-2xl">Personal Information</h2>
-          <div class="flex gap-5">
+          <h2 class="text-2xl my-5 font-bold">Personal Information</h2>
+          <div class="flex gap-5 my-3">
             <div class="flex-1">
               <label for="">Title</label>
               <div class="flex">
@@ -198,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex gap-5 my-3">
             <div class="flex-1">
               <label for=""
                 ><span class="text-red-500">* </span>First name</label
@@ -214,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex gap-5 my-3">
             <div class="flex-1">
               <label for=""
                 ><span class="text-red-500">* </span>Last name</label
@@ -230,11 +243,16 @@
               </div>
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex gap-5 my-1">
             <div class="flex-1">
               <label for=""><span class="text-red-500">* </span>Email</label>
-              <div class="flex">
-                <input class="border w-full py-2" type="text" />
+              <div class="flex relative flex-col">
+                <input
+                  class="border-2 border-green-200 w-full py-2 pl-2"
+                  type="text"
+                  value="kim@socialgoodsoftware.come"
+                />
+                <p class="text-right text-green-400 font-thin">Valid Email</p>
               </div>
             </div>
             <div class="flex-1">
@@ -244,7 +262,7 @@
               </div>
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex gap-5 my-3">
             <div class="flex-1">
               <label for=""><span class="text-red-500">* </span>Phone</label>
               <div class="flex">
@@ -258,7 +276,7 @@
               </div>
             </div>
           </div>
-          <p class="text-right font-bold text-xl my-5">Total: $56:00</p>
+          <p class="text-right font-bold text-lg my-5">Total: $56:00</p>
           <div class="flex justify-between">
             <div class="flex flex-col">
               <div class="flex gap-3">
@@ -271,7 +289,7 @@
               </div>
             </div>
             <button
-              class="btn selectPage border py-2 px-5 bg-violet-800 text-white text-sm"
+              class="btn selectPage border py-2 px-10 font-bold bg-violet-900 text-white text-sm"
               data-page="page3"
             >
               Checkout
@@ -283,7 +301,7 @@
       <!-- Third Page -->
 
       <div
-        class="bg-white page selectPage hehe border mx-auto w-[70%] p-5 text-xl"
+        class="bg-white page selectPage border mx-auto w-[70%] p-5 text-lg shadow-md"
         id="page3"
         data-page="page1"
       >
